@@ -1,3 +1,17 @@
+.container{
+  margin:0;
+  width: 100%;
+}
+
+@media(max-width:"767px"){
+  .container{
+    width:100%;
+    margin:0;
+  }
+}
+
+
+
 .btnAjoute{
 	background-color: transparent;
 	border-radius: 5px;
@@ -143,17 +157,43 @@
 }
 
 .reglesjeuDuFakir{
-  float: left
+  float: left;
+  width: 50%;
+  margin-top: 100px;
+  height: 60%;
+}
+
+.reglesjeuDuFakir p{
+  text-align: center;;
+}
+.regles{
+  margin-left: 201px;
 }
 
 .jeuDuFakir{
   float: right;
-  
+  width: 50%;
+  margin-top: 100px;
+  height: 60%;
 }
 
 .jeuDuFakir img{
-  width: 250px;
+  width: 400px;
+  height: 130px;
   text-align: center;
+  padding-left: 35px;
+}
+
+.jouerFakir{
+  height: 100%;
+}
+
+#jouerPartie{
+  border: 1px solid black;
+  height: 100%;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
 #saisieNbr{
@@ -161,19 +201,56 @@
   margin-left: 8px;
 }
 
-.resultTab{
-  margin-left: 88px;
+.resultTab > table{
+  width: 80%;
+  margin-left: 70px;
 }
 .form{
-  margin-left: 73px;
+  margin-left: 199px;
+  margin-top: 14px;
 }
 .form > label{
-  background-color: grey;
-  margin-left: 27px;
-
+  color: white;
+  margin-left: 29px
 }
 
 .lastResult > img{
   width: 20px;
   height: 20px;
+}
+
+#boutonJouer{
+  margin-left: 68px;
+  margin-top: 110px;
+  background-color:rgb(253, 68, 0);
+  color: white;
+  border-radius:12px;
+  width: 80%;
+}
+.guessSubmit{
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.guessField{
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.reglesjeuDuFakir > h1{
+  font-family: "gameOn";
+  font-weight: bold;
+}
+
+@font-face {
+  font-family:'gameOn';
+  src:('../fonts/Game\ On_PersonalUseOnly.ttf');
+}
+@font-face {
+  font-family:'kissBoom';
+  src:('../fonts/Kiss\ Boom.ttf');
+}
+@font-face {
+  font-family:'bouncyBlack';
+  src:('../fonts/Bouncy-Black-PERSONAL_USE_ONLY.otf');
 }
