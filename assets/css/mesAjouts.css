@@ -1,0 +1,179 @@
+.btnAjoute{
+	background-color: transparent;
+	border-radius: 5px;
+	border-color: white;
+	font-size: 13px;
+}
+#pngimages{ 
+	width: 50px;
+	height:50px;
+}
+
+#lorem_text_center{ 
+    margin-top: 20px;
+    padding-bottom: 45px;
+    padding-top: 25px;
+}
+
+/* @media (max-width: 50%) {
+	.profil { min-height:170px; padding-top:160px; min-width: 160px;}
+	
+
+} */
+
+
+.carousel-inner img{
+    text-align:center;
+    Margin : auto;
+    Display:flex
+}
+@media (max-width: 767px) {
+	#carousel-inner {
+        min-height:420px; padding-top:160px; min-width: 400px; font-size: 34px;
+    }
+}
+
+#bolton{
+    max-height: 479px;
+}
+
+#horizon{
+    max-height: 479px;
+}
+
+#comPhoto{
+    padding-left: 15px;
+}
+.profil{
+    background-color: rgb(225, 225, 225);
+    max-width: 100%;
+}
+
+#imgProfile{
+    max-width: 250px;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:1000px;
+}
+
+@media (max-width: 767px) {
+	#Profil {
+       padding-top:160px; font-size: 34px; text-align:center;
+    }
+}
+.profil > table{ 
+    text-align:center;
+}
+
+
+
+.child-page-listing{
+    text-align:center;
+}
+
+.child-page-listing > img {
+  width: 100%; /* need to overwrite inline dimensions */
+  height: auto;
+}
+.child-page-listing > h2 {
+  margin-bottom: .5em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) { 
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+}
+
+.reglesjeuDuFakir{
+  float: left
+}
+
+.jeuDuFakir{
+  float: right;
+  
+}
+
+.jeuDuFakir img{
+  width: 250px;
+  text-align: center;
+}
+
+#saisieNbr{
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+.resultTab{
+  margin-left: 88px;
+}
+.form{
+  margin-left: 73px;
+}
+.form > label{
+  background-color: grey;
+  margin-left: 27px;
+
+}
+
+.lastResult > img{
+  width: 20px;
+  height: 20px;
+}

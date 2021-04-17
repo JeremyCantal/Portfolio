@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Portfolio Jérémy CANTAL</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/mesAjouts.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body class="home">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html">Jérémy CANTAL<br><sub style="font-size: 13px;">Mobile Developer</sub></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="about.html">CV</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plus d'infos<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="sidebar-left.html">Mes photos</a></li>
+							<li class="active"><a href="sidebar-right.html">Mes passions</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Me contacter</a></li>
+					<li><a class="btn" href="signin.html">Se connecter</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="head">
+		<div class="container">
+			<div class="row">
+				<h1 class="lead">Bienvenue sur mon portfolio</h1>
+				<p class="tagline">Vous pourrez y trouver toutes mes réalisations !
+					<button class="btnAjoute">
+						<a href="about.html">Voir les réalisations</a>
+					</button>
+				</p>
+				<p class="tagline">Ou encore mes photos :
+					<button class="btnAjoute">
+						<a href="sidebar-left.html">Voir les photos</a>
+					</button>
+				</p>
+				<p><a class="btn btn-default btn-lg" role="button">MORE INFO</a> <a class="btn btn-action btn-lg" role="button">DOWNLOAD NOW</a></p>
+			</div>
+		</div>
+	</header>
+	<!-- /Header -->
+
+	<!-- Profile -->
+		<div class="container profil">
+			<table style="width: 100%">
+				<tr>
+					<td id="comPhoto" >Voici une photo de moi content !</td>
+				</tr>
+				<tr>					
+					<td id="celImgProfile"><img id="imgProfile" src="assets/images/1586617426799.jpg" alt="Photo de moi heureux"></td>	
+				</tr>
+				
+			</table>
+			
+
+		</div>
+		<hr>
+
+
+	<!-- /Profile -->
+
+
+	<!-- Intro -->
+	<div class="container text-center" id="text_center_modif">
+		<br> <br>
+		<h2 class="thin">Vous pouvez masquer ce container, essayez ! <img id="pngimages" src="assets/images/clinDOeil.png">
+		<button onclick="onDisparition()" class="btnAjoute" >Attention... Disparition !</button></h2>
+		<h5>Ou préférez-vous masquer ma tête avec ?<button onclick="onDisparitionTete()" style="color:red; font-size: 7px;" class="btnAjoute" >DANGER !</button></h5>
+		<p class="text-muted" id="lorem_text_center">
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi neque quisquam alias fugit delectus vitae temporibus ipsum porro modi deleniti rerum quo, cumque veritatis nobis aut odio, magni unde inventore.
+		</p>
+	</div>
+	<div class="container text-center">
+		<p>Faire réaparaître le contenu au dessus
+			<button onclick="onReapparition()" class="btnAjoute">Attention... Réapparition !</button></p>
+		
+	</div>
+	<!-- /Intro-->
+		
+	<!-- Highlights - jumbotron -->
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">Pourquoi moi ?</h3>
+			
+			<div class="row">
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-cogs fa-5"></i>Détermination</h4></div>
+					<div class="h-body text-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid adipisci aspernatur. Soluta quisquam dignissimos earum quasi voluptate. Amet, dignissimos, tenetur vitae dolor quam iusto assumenda hic reprehenderit?</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-flash fa-5"></i>Rigueur</h4></div>
+					<div class="h-body text-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, commodi, sequi quis ad fugit omnis cumque a libero error nesciunt molestiae repellat quos perferendis numquam quibusdam rerum repellendus laboriosam reprehenderit! </p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-heart fa-5"></i>Skills</h4></div>
+					<div class="h-body text-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, vitae, perferendis, perspiciatis nobis voluptate quod illum soluta minima ipsam ratione quia numquam eveniet eum reprehenderit dolorem dicta nesciunt corporis?</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-smile-o fa-5"></i>Retour clients</h4></div>
+					<div class="h-body text-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, excepturi, maiores, dolorem quasi reprehenderit illo accusamus nulla minima repudiandae quas ducimus reiciendis odio sequi atque temporibus facere corporis eos expedita? </p>
+					</div>
+				</div>
+			</div> <!-- /row  -->
+		
+		</div>
+	</div>
+	<!-- /Highlights -->
+	<br>
+	<hr>
+
+	<h1 style="text-align:center;">Mes réalisations</h1><br><br>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+		
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		  <li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+	  
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+		  <div class="item active">
+			<img id="negan" src="assets/images/Negan.jpg" alt="Negan">
+			<div class="carousel-caption">
+			  <h3>Negan</h3>
+			  <p>En compagnie de Lucille, vous êtes sûr d'être en sécurité avec lui !</p>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<img src="assets/images/Elie3.jpg" alt="Elie">
+			<div class="carousel-caption">
+			  <h3>Elie</h3>
+			  <p>S'il en reste un ou une parmis nous, ce sera bien Elie !.</p>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<img id="bolton" src="assets/images/Bolton.jpg" alt="Bolton">
+			<div class="carousel-caption">
+			  <h3>Bolton</h3>
+			  <p>Une petite faim ? Venez manger en compagnie de <a href="https://gameofthrones.fandom.com/fr/wiki/Ramsay_Bolton" target="_blank">Lord Bolton</a> et son ami <a href="https://gameofthrones.fandom.com/fr/wiki/Theon_Greyjoy" target="_blank">Theon Greyjoy.</a></p>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<img id="horizon" src="assets/images/hipertextual-horizon-zero-dawn-concreta-su-fecha-lanzamiento-pc-2020483534.jpg" alt="Horizon Zero Dawn">
+			<div class="carousel-caption">
+			  <h3>Horizon Zero Dawn</h3>
+			  <p>Voici ma plus grande réussite.</p>
+			</div>
+		  </div>
+		</div>
+	  
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </div>
+
+
+
+	<hr>
+
+	
+	
+
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>06 24 .. .. ..<br>
+								<a href="mailto:#">jeremy.cantal@gmail.com</a><br>
+								<br>
+								35, rue de la Comté, Terre du Milieu
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Suivez-moi</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Text widget</h3>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="#">Home</a> | 
+								<a href="about.html">CV</a> |
+								<a href="sidebar-right.html">Mes photos</a> |
+								<a href="sidebar-right.html">Mes passions</a> |
+								<a href="contact.html">Me contacter</a> |
+								<b><a href="signup.html">Se connecter</a></b>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2021, Jérémy CANTAL. Designed by me 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="assets/JS/jquery-3.6.0.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+	<script src="assets/js/mesAjouts.js"></script>
+	
+</body>
+</html>
