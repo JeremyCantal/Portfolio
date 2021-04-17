@@ -57,53 +57,56 @@
 	<header id="head" class="secondary"></header>
 
 	<!-- container -->
-	<div class="container">
+	<div class="container" style="margin-left:0; width:100%;">
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
 			<li class="active">Right Sidebar</li>
 		</ol>
 
-		<div class="container">
-			<div class="reglesjeuDuFakir">
-				<h1>Bienvenue au jeu du Fakir !</h1>
+		<div class="container" style="width:100%; border: 1px solid black; height: 500px; background-color: skyblue;">
+			<div class="reglesjeuDuFakir" style="border: 1px solid yellow;">
+				<h1 style="text-align: center;">Bienvenue au jeu du Fakir !</h1>
 				<p>Les règles sont simples : </p>
-				<ul>
-					<li>Tu dois trouver le nombres mystère</li>
-					<li>Il est compris entre 0 et 100</li>
-					<li>Tu as droits à 7 essais</li>
-					<li>Si tu gagnes, tu as tout mon respect</li>
-					<li>Si tu perds, t'es pas ouf...</li>
-				</ul>
+				<div class="regles">
+					<ul>
+						<li>Tu dois trouver le nombres mystère</li>
+						<li>Il est compris entre 0 et 100</li>
+						<li>Tu as droits à 7 essais</li>
+						<li>Si tu gagnes, tu as tout mon respect</li>
+						<li>Si tu perds, t'es pas ouf...</li>
+					</ul>
+				</div>
 			</div>
-			<div class="jeuDuFakir">
-				
-				<button id="boutonJouer" onclick="onJouer()">Lancer une partie</button>
-				<div id="jouerPartie">
-					<div class="form">
-						<label for="guessField">Proposez un nombre entre 1 et 100</label><br>
-						<input type="text" id="guessField" class="guessField">
-						<input type="submit" value="Submit guess" class="guessSubmit">
-					</div >
-					<div class="resultTab">
-						<table >
-							<tr style="border: 1px solid black;">
-								<th colspan="4"><img src="assets/images/fakirJeu.png" alt="Fakir au top !"></th>
-							</tr>
-							<tr style="border: 1px solid black;">
-								<th style="border: 1px solid black;">Essai n°</th>
-								<th style="border: 1px solid black;">Proposition</th>
-								<th style="border: 1px solid black; width: 250px;">Commentaires</th>
-								<th style="border: 1px solid black;">Résultat</th>
-							</tr>
-							<tr style="border: 1px solid black">
-								<td style="border: 1px solid black; background-color: grey; color:white;" class="essaiCount"></td>
-								<td style="border: 1px solid black;" class="guesses"></td>
-								<td style="border: 1px solid black;" class="lowOrHi"></td>
-								<td style="border: 1px solid black;" class="lastResult"></td>
-							</tr>
-						</table>
-						
+			<div class="jeuDuFakir" style="border: 1px solid green;">
+				<div class="jouerFakir" style="border: 1px solid red;">
+					<button id="boutonJouer" onclick="onJouer()">Lancer une partie</button>
+					<div id="jouerPartie">
+						<div class="form">
+							<label for="guessField">Proposez un nombre entre 1 et 100</label><br>
+							<input type="text" id="guessField" class="guessField">
+							<input type="submit" value="Valider" class="guessSubmit">
+						</div >
+						<div class="resultTab">
+							<table >
+								<tr style="border: 1px solid black;">
+									<th colspan="4" style="background-color: white;	opacity: 0.8;"><img src="assets/images/fakirJeu.png" alt="Fakir au top !"></th>
+								</tr>
+								<tr style="border: 1px solid black;	opacity: 1;">
+									<th style="border: 1px solid black; font-size: 18px;">Essai n°</th>
+									<th style="border: 1px solid black; font-size: 18px;">Proposition</th>
+									<th style="border: 1px solid black; font-size: 18px; width: 250px;">Commentaires</th>
+									<th style="border: 1px solid black; font-size: 18px;">Résultat</th>
+								</tr>
+								<tr style="border: 1px solid black; opacity: 1;">
+									<td style="border: 1px solid black; background-color: grey; color:white;" class="essaiCount">&nbsp;</td>
+									<td style="border: 1px solid black;" class="guesses">&nbsp;</td>
+									<td style="border: 1px solid black;" class="lowOrHi">&nbsp;</td>
+									<td style="border: 1px solid black;" class="lastResult"></td>
+								</tr>
+							</table>
+							
+						</div>
 					</div>
 				</div>
 			</div>
