@@ -64,7 +64,8 @@
 }
 
 #imgProfile{
-    max-width: 250px;
+  margin-left: 180px;
+    max-width: 50%;
     overflow:hidden;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
@@ -242,14 +243,14 @@
 }
 
 @font-face {
-  font-family:'gameOn';
+  font-family:"gameOn";
   src:('../fonts/Game\ On_PersonalUseOnly.ttf');
 }
 @font-face {
-  font-family:'kissBoom';
+  font-family:"kissBoom";
   src:('../fonts/Kiss\ Boom.ttf');
 }
 @font-face {
-  font-family:'bouncyBlack';
+  font-family:"bouncyBlack";
   src:('../fonts/Bouncy-Black-PERSONAL_USE_ONLY.otf');
 }

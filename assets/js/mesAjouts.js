@@ -4,7 +4,7 @@ function onDisparition(){
 }
 
 function onDisparitionTete(){
-    $("#celImgProfile").hide();
+    $("#imgProfile").hide();
     $("#text_center_modif").hide();
     console.log("Il a enlevé ta tête avec !!!");
     $("#comPhoto").replaceWith("<td><button style='color:red; font-weight: bold;' onclick='onReapparitionTete()' class='btnAjoute'>REMET MA TETE TOI!</button></td>");
@@ -12,12 +12,11 @@ function onDisparitionTete(){
 
 function onReapparition(){
     $("#text_center_modif").show();
-    console.log($('#celImgProfile').val());
-
 }
 
 function onReapparitionTete(){
-    $("#celImgProfile").show();
+    $("#imgProfile").replaceWith('<td id="celImgProfile"><img style="width: 30%;" id="imgProfile" src="assets/images/moiVener.jpg" alt="Photo de moi énervé"></td>');
+    $("#imgProfile").show();
     setTimeout("alert('Ok, ok c est cool, merci bro !');", 200);
 }
 
