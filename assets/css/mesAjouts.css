@@ -181,7 +181,6 @@
   width: 400px;
   height: 130px;
   text-align: center;
-  padding-left: 35px;
 }
 
 .jouerFakir{
@@ -206,12 +205,12 @@
   margin-left: 70px;
 }
 .form{
-  margin-left: 199px;
+  margin-left: 219px;
   margin-top: 14px;
 }
 .form > label{
   color: white;
-  margin-left: 29px
+  
 }
 
 .lastResult > img{
